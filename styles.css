@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    height: 200;width: 1000px; /* Adjust the size of the logo */
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Added to arrange menus in a horizontal line */
+    justify-content: center; /* Center the menu items */
+    background-color: #333;
+}
+
+.submenu {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Added to arrange submenu items in a horizontal line */
+    justify-content: center; /* Center the submenu items */
+}
+
+.menu-button {
+    display: inline-block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.menu-button:hover {
+    background-color: #555; /* Change color on hover */
+}
+
+.menu-button:active {
+    background-color: #777; /* Change color when clicked */
+}
+
